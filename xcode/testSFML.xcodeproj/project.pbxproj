@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A4204FE9AF5045969280AFC3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 194B0222709C4616BD5BFB85 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8A77A53CA1C94E7798E2BB5E /* CMake Rules */,
+			);
+			dependencies = (
+				7DABF038E95349F3B91D1E57 /* PBXTargetDependency */,
+				F6C0604648DB4D6A8E20DE12 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		FB7762B9C538437783D1936A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C671455C6A5A44CFB5445346 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8F29042C078644C891F7D34B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7D3500FB3CC04E29938E3486 /* helloSFML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 566DF45EACAB4ADEB6FE7BDC /* helloSFML.cpp */; };
+		9A53D10C2336A57F00871240 /* Snake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A53D10B2336A57F00871240 /* Snake.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E9E669B9AD748FBA002D121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AEC855876D45F5B8F417A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7762B9C538437783D1936A;
+			remoteInfo = ZERO_CHECK;
+		};
+		A5345D083310485D9B2E4589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AEC855876D45F5B8F417A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7762B9C538437783D1936A;
+			remoteInfo = ZERO_CHECK;
+		};
+		B9D3B2D1820D4533A9B35077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AEC855876D45F5B8F417A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5566C447D474A95B653B671;
+			remoteInfo = testSFML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30868AF967934B8285914D9D /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		478F24AB42B24020A81D5D76 /* testSFML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = testSFML; sourceTree = BUILT_PRODUCTS_DIR; };
+		566DF45EACAB4ADEB6FE7BDC /* helloSFML.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = helloSFML.cpp; path = src/helloSFML.cpp; sourceTree = SOURCE_ROOT; };
+		6013947DA3AF48C19183A722 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A53D1052336A36F00871240 /* knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knife.png; path = src/knife.png; sourceTree = "<group>"; };
+		9A53D1062336A37000871240 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pizza.png; path = src/pizza.png; sourceTree = "<group>"; };
+		9A53D1072336A37000871240 /* snakeHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snakeHead.png; path = src/snakeHead.png; sourceTree = "<group>"; };
+		9A53D10B2336A57F00871240 /* Snake.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Snake.cpp; path = src/Snake.cpp; sourceTree = "<group>"; };
+		9A6502E92332BC1E003B26C8 /* Snake.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Snake.hpp; path = src/Snake.hpp; sourceTree = "<group>"; };
+		9A6502EA2332C053003B26C8 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = src/background.jpg; sourceTree = "<group>"; };
+		9A6502EB2332C483003B26C8 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG.jpg; path = src/BG.jpg; sourceTree = "<group>"; };
+		9A6502EC2333D5CF003B26C8 /* bugrer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bugrer.png; path = src/bugrer.png; sourceTree = "<group>"; };
+		9A6502ED2333D5DA003B26C8 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chicken.png; path = src/chicken.png; sourceTree = "<group>"; };
+		9A6502EE2333D5E5003B26C8 /* fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fork.png; path = src/fork.png; sourceTree = "<group>"; };
+		9A6502EF2333D5EC003B26C8 /* knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knife.png; path = src/knife.png; sourceTree = "<group>"; };
+		9A6502F02333D5F2003B26C8 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pizza.png; path = src/pizza.png; sourceTree = "<group>"; };
+		9A6502F22333D602003B26C8 /* snakeHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snakeHead.png; path = src/snakeHead.png; sourceTree = "<group>"; };
+		9A6502F32333DA3C003B26C8 /* backgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = backgroundMusic.wav; path = src/backgroundMusic.wav; sourceTree = "<group>"; };
+		9ACAF2F42336B0F700E73424 /* snake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snake.jpg; path = src/snake.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		304C7FFBCFE645D28216A4AC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6BE5737755BF4493BA94CF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478F24AB42B24020A81D5D76 /* testSFML */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9B888F0F7D455F943FCB2A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				566DF45EACAB4ADEB6FE7BDC /* helloSFML.cpp */,
+				9A53D1052336A36F00871240 /* knife.png */,
+				9A53D1062336A37000871240 /* pizza.png */,
+				9A6502E92332BC1E003B26C8 /* Snake.hpp */,
+				9A53D10B2336A57F00871240 /* Snake.cpp */,
+				9A6502EA2332C053003B26C8 /* background.jpg */,
+				9A6502ED2333D5DA003B26C8 /* chicken.png */,
+				9ACAF2F42336B0F700E73424 /* snake.jpg */,
+				9A6502EE2333D5E5003B26C8 /* fork.png */,
+				9A6502F32333DA3C003B26C8 /* backgroundMusic.wav */,
+				9A53D1072336A37000871240 /* snakeHead.png */,
+				9A6502EC2333D5CF003B26C8 /* bugrer.png */,
+				9A6502F22333D602003B26C8 /* snakeHead.png */,
+				9A6502EF2333D5EC003B26C8 /* knife.png */,
+				9A6502F02333D5F2003B26C8 /* pizza.png */,
+				9A6502EB2332C483003B26C8 /* BG.jpg */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F4B0D05E228F44CDA4ADA191 = {
+			isa = PBXGroup;
+			children = (
+				FB9453A5276440A5B4ADB15A /* testSFML */,
+				FB9F1B2DBAAD427895492E43 /* ALL_BUILD */,
+				6BE5737755BF4493BA94CF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9453A5276440A5B4ADB15A /* testSFML */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B888F0F7D455F943FCB2A /* Source Files */,
+				30868AF967934B8285914D9D /* CMakeLists.txt */,
+			);
+			name = testSFML;
+			sourceTree = "<group>";
+		};
+		FB9F1B2DBAAD427895492E43 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				304C7FFBCFE645D28216A4AC /* CMake Rules */,
+				6013947DA3AF48C19183A722 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5566C447D474A95B653B671 /* testSFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3172AC8683F451AA41DCD30 /* Build configuration list for PBXNativeTarget "testSFML" */;
+			buildPhases = (
+				E34C53EE3BFC48A083DD13E9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF179051EA2412A92340E8C /* PBXTargetDependency */,
+			);
+			name = testSFML;
+			productName = testSFML;
+			productReference = 478F24AB42B24020A81D5D76 /* testSFML */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23AEC855876D45F5B8F417A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = ACB925F6FDC8432E8F14742D /* Build configuration list for PBXProject "testSFML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4B0D05E228F44CDA4ADA191;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				A4204FE9AF5045969280AFC3 /* ALL_BUILD */,
+				FB7762B9C538437783D1936A /* ZERO_CHECK */,
+				E5566C447D474A95B653B671 /* testSFML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A77A53CA1C94E7798E2BB5E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Yu/Documents/UtahMSD/Cmake/xcode -f /Users/Yu/Documents/UtahMSD/Cmake/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8F29042C078644C891F7D34B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Yu/Documents/UtahMSD/Cmake/xcode -f /Users/Yu/Documents/UtahMSD/Cmake/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E34C53EE3BFC48A083DD13E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3500FB3CC04E29938E3486 /* helloSFML.cpp in Sources */,
+				9A53D10C2336A57F00871240 /* Snake.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AF179051EA2412A92340E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7762B9C538437783D1936A /* ZERO_CHECK */;
+			targetProxy = 0E9E669B9AD748FBA002D121 /* PBXContainerItemProxy */;
+		};
+		7DABF038E95349F3B91D1E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5566C447D474A95B653B671 /* testSFML */;
+			targetProxy = B9D3B2D1820D4533A9B35077 /* PBXContainerItemProxy */;
+		};
+		F6C0604648DB4D6A8E20DE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7762B9C538437783D1936A /* ZERO_CHECK */;
+			targetProxy = A5345D083310485D9B2E4589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19E46803456A47938AD1D26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		2677FEABD83F444AB1837B05 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		3B35B0060AAF43B0A4EF8E2B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		4A30136669E94AF2B214BF84 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		61125792E95D4D848CECAEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode/build;
+			};
+			name = Debug;
+		};
+		6D742AB7A3334E1C8B760C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode/build;
+			};
+			name = Release;
+		};
+		8472E5036CA046B6ACF01728 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		9976D4F4E583483EA6F1C2D9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A4DC64800841400CB807BF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		AEC58EF91AF0436E9760B76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		AF34A4DAC64441E2BCE8ED9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		D8F6594ABFD04A7B9357CC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Library/Frameworks/.;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=c++17'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics",
+					"/Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window",
+					"/Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = testSFML;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		E0626BA15E46442A966347FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		E9C9946A328F43CF9E34C092 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		F061FF3B9E664128813DEC31 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		F62945A59AE645EE8AF27EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yu/Documents/UtahMSD/Cmake/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194B0222709C4616BD5BFB85 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62945A59AE645EE8AF27EC5 /* Debug */,
+				19E46803456A47938AD1D26A /* Release */,
+				F061FF3B9E664128813DEC31 /* MinSizeRel */,
+				E9C9946A328F43CF9E34C092 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3172AC8683F451AA41DCD30 /* Build configuration list for PBXNativeTarget "testSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DC64800841400CB807BF52 /* Debug */,
+				D8F6594ABFD04A7B9357CC3F /* Release */,
+				8472E5036CA046B6ACF01728 /* MinSizeRel */,
+				9976D4F4E583483EA6F1C2D9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ACB925F6FDC8432E8F14742D /* Build configuration list for PBXProject "testSFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61125792E95D4D848CECAEAA /* Debug */,
+				6D742AB7A3334E1C8B760C74 /* Release */,
+				2677FEABD83F444AB1837B05 /* MinSizeRel */,
+				4A30136669E94AF2B214BF84 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C671455C6A5A44CFB5445346 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC58EF91AF0436E9760B76F /* Debug */,
+				E0626BA15E46442A966347FF /* Release */,
+				AF34A4DAC64441E2BCE8ED9D /* MinSizeRel */,
+				3B35B0060AAF43B0A4EF8E2B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23AEC855876D45F5B8F417A4 /* Project object */;
+}
